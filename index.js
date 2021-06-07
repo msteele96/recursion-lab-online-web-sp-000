@@ -9,11 +9,11 @@ function printString(myString) {
   }
 }
 
-const reverseString = (string) => {
-  if (string.length < 2 ) {
-    return string
+function reverseString(myString) {
+  if (myString.length < 2) {
+    return myString;
   } else {
-    return reverseString(string.substring(1)) + string[0]
+    return reverseString(myString.substring(1)) + myString[0];
   }
 }
 
