@@ -27,24 +27,6 @@ function isPalindrome(string) {
   }
 }
 
-function addUpTo(myArray, index) {
-  return index ? myArray[index] + addUpTo(myArray, --index) : myArray[index];
-}
-
-function maxOf(myArray) {
-  if (myArray.length === 1) {
-    return myArray[0];
-  } else {
-    return Math.max(myArray.pop(), maxOf(myArray));
-  }
-}
-
-function includesNumber(myArray, myNumber) {
-  if (!myArray.length) {
-    return false;
-  } else if (myArray[0] === myNumber) {
-    return true;
-  } else {
-    return includesNumber(myArray.slice(1), myNumber);
-  }
+function addUpTo(array) {
+  
 }
