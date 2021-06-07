@@ -10,7 +10,13 @@ function printString(myString) {
 }
 
 const reverseString = (string) => {
-return string.reverse()
+  if (string.length < 2 ) {
+    return string
+  } else {
+    reverseString(string.substring(1) + string[0])
+  }
+  let sub = string.substring(string.length-1)
+  
 }
 
 const isPalindrome = () => {
