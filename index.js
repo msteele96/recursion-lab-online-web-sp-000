@@ -1,6 +1,6 @@
 // Code your solution here!
 const printString = (string) => {
-  string.split
+  string.split()
   console.log(string[0])
   let substring = string.shift()
   printString(substring)
