@@ -1,7 +1,7 @@
 // Code your solution here!
 const printString = (string) => {
   for (var i = 0; i < string.length; i++) {
-    consol.log(string[i])
+    console.log(string[i])
   }
 }
 
