@@ -17,6 +17,16 @@ function reverseString(string) {
   }
 }
 
+function isPalindrome(string) {
+  if (string.length < 2) {
+    return true;
+  } else if () {
+    
+  } else {
+    return false
+  }
+}
+
 function isPalindrome(myString) {
   let l = myString.length;
 
