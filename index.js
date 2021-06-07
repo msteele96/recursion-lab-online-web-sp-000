@@ -17,8 +17,8 @@ function reverseString(string) {
   }
 }
 
-const isPalindrome = () => {
-
+function isPalindrome(string) {
+  string.length/2
 }
 
 const addUpTo = () => {
