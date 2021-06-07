@@ -9,8 +9,8 @@ function printString(myString) {
   }
 }
 
-const reverseString = () => {
-
+const reverseString = (string) => {
+string.reverse()
 }
 
 const isPalindrome = () => {
