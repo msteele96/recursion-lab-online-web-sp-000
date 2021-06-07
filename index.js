@@ -10,7 +10,7 @@ function printString(myString) {
 }
 
 const reverseString = (string) => {
-string.reverse()
+return string.reverse()
 }
 
 const isPalindrome = () => {
