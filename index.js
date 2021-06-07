@@ -1,7 +1,8 @@
 // Code your solution here!
 const printString = (string) => {
-  console.log(string.shift)
-  let substring = string
+  console.log(string[0])
+  let substring = string.shift
+  printString
 }
 
 const reverseString = () => {
