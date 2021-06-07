@@ -1,6 +1,8 @@
 // Code your solution here!
-const printString = () => {
-
+const printString = (string) => {
+  for (var i = 0; i < string.length; i++) {
+    consol.log(string[i])
+  }
 }
 
 const reverseString = () => {
